@@ -1,15 +1,16 @@
 import styles from './Time.module.css'
 const Time = () => {
+
     return <div>
-        <div className = {styles.hours}>
+        <p className = {styles.hours}>
             00
-        </div>
-                <div className = {styles.min}>
+        </p>
+        <p className = {styles.min}>
             00
-        </div>
-                <div className = {styles.sec}>
+        </p>
+            <p className = {styles.sec}>
             00
-        </div>
+        </p>
     </div>
 }
 
