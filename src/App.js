@@ -1,11 +1,11 @@
 import './App.css';
-import Counter from './components/counter';
+import Timer from './components/Timer';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>;
 
-      <Counter />
+      <Timer />
     </div>
   );
 }
